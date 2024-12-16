@@ -1,0 +1,90 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "DaxActivateDateRelationship",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "0a57fbe2435eed301068",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"04741aebddce77520036\",\"layouts\":[{\"id\":0,\"position\":{\"x\":521.5670103092783,\"y\":157.36082474226802,\"z\":2,\"width\":300.86597938144325,\"height\":299.8762886597938,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Fact Table.Net Sales)\"},{\"queryRef\":\"Computed.SumOfNetOfSales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Fact Table\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Computed\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Net Sales\"}},\"Function\":0},\"Name\":\"Sum(Fact Table.Net Sales)\",\"NativeReferenceName\":\"Sum of Net Sales\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"SumOfNetOfSales\"},\"Name\":\"Computed.SumOfNetOfSales\",\"NativeReferenceName\":\"SumOfNetOfSales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Net Sales\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sum of Net Sales'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 299.88,
+          "width": 300.87,
+          "x": 521.57,
+          "y": 157.36,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"1362dc2859c335007340\",\"layouts\":[{\"id\":0,\"position\":{\"x\":391.91752577319585,\"y\":51.46391752577319,\"z\":0,\"width\":280.0824742268041,\"height\":105.89690721649484,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"M Date1.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"M Date1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"},\"Name\":\"M Date1.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-01-01T00:00:00'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2024-12-31T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"M Date1\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-01-01T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2025-01-01T00:00:00'\"}}}}}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 105.90,
+          "width": 280.08,
+          "x": 391.92,
+          "y": 51.46,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"656ebd6753aaa76c91ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":672,\"y\":51.46391752577319,\"z\":1,\"width\":280.0824742268041,\"height\":105.89690721649484,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"M Date2.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"M Date2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"},\"Name\":\"M Date2.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-01-01T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"M Date2\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-01-01T00:00:00'\"}}}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 105.90,
+          "width": 280.08,
+          "x": 672.00,
+          "y": 51.46,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "SomeVisual",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "f8d844390b1305151bc6",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"15081b116dbc8120a424\",\"layouts\":[{\"id\":0,\"position\":{\"x\":66.58959537572254,\"y\":86.01156069364161,\"z\":0,\"width\":842.543352601156,\"height\":273.757225433526,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Dim Product.Product Name\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Fact Table.Net Sales)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Dim Product\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"Fact Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Product Name\"},\"Name\":\"Dim Product.Product Name\",\"NativeReferenceName\":\"Product Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Net Sales\"}},\"Function\":4},\"Name\":\"Sum(Fact Table.Net Sales)\",\"NativeReferenceName\":\"Max of Net Sales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Net Sales\"}},\"Function\":4}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"customizeSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"spaceBelowTitle\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"2d6a6a7c02c8655ee854\",\"filter\":{\"Version\":2,\"From\":[],\"Where\":[{\"Condition\":{\"VisualTopN\":{\"ItemCount\":3}}}]},\"type\":\"VisualTopN\",\"howCreated\":1}]",
+          "height": 273.76,
+          "width": 842.54,
+          "x": 66.59,
+          "y": 86.01,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"35e22857175b020db093\",\"layouts\":[{\"id\":0,\"position\":{\"x\":67,\"y\":370,\"width\":843,\"height\":274,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Series\":[{\"queryRef\":\"Dim Product.Product Name\"}],\"Y\":[{\"queryRef\":\"Sum(Fact Table.Net Sales)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Dim Product\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"Fact Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Product Name\"},\"Name\":\"Dim Product.Product Name\",\"NativeReferenceName\":\"Product Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Net Sales\"}},\"Function\":4},\"Name\":\"Sum(Fact Table.Net Sales)\",\"NativeReferenceName\":\"Max of Net Sales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Net Sales\"}},\"Function\":4}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[{\"name\":\"1b56e07d35009b6301b9\",\"filter\":{\"Version\":2,\"From\":[],\"Where\":[{\"Condition\":{\"VisualTopN\":{\"ItemCount\":3}}}]},\"type\":\"VisualTopN\",\"howCreated\":1},{\"expression\":{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Fact Table\"}},\"Property\":\"Net Sales\"}},\"Function\":0}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Fact Table\"}},\"Property\":\"Net Sales\"}},\"Function\":0}},\"Scope\":[]}},\"Operator\":3}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 274.00,
+          "width": 843.00,
+          "x": 67.00,
+          "y": 370.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
