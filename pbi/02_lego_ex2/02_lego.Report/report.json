@@ -1,0 +1,186 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":0,\"bookmarks\":[{\"displayName\":\"unfiltered\",\"name\":\"e9c96b1535b26cd90a06\",\"explorationState\":{\"version\":\"1.15\",\"activeSection\":\"e0e97d1c85d309eb5070\",\"sections\":{\"e0e97d1c85d309eb5070\":{\"visualContainers\":{\"c2059be11563a3227e25\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"be1d9489cd8635040309\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"e3e9a3c5c353e386d322\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"9d714fa55cc04cc37908\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"6982cd6510758732c378\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"774f3187a5285e51c98b\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"fb830c660b6c275ce8a2\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"2b868544c8e80b8c4bec\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"total_sets\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"total_sets\"}}}]}},\"f6c2c704c03100296069\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_pieces\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"autoSelectVisualType\":false,\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_pieces\"}}}]}},\"af29a2f31e61ad005c3d\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_price\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_price\"}}}]}},\"f2d8f6b41eb21bae21cd\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"theme_group\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"theme_group\"}}]}}},\"619a65bc1be43dd5d0bb\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"age_range\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"age_range\"}}]}}},\"56ac2ebb4332c7596e63\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"name\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"set_id\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"theme\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"age_range\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_pieces\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_price\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"lego_sets\"}},\"Property\":\"price_range\"}},\"howCreated\":0},{\"name\":\"9cca7d0683921200d0a2\",\"type\":\"Advanced\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"max_price_filter\"}},\"Right\":{\"Literal\":{\"Value\":\"1L\"}}}}}]},\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"max_price_filter\"}},\"howCreated\":1}]},\"singleVisual\":{\"visualType\":\"tableEx\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"avg_price\"}}}]}},\"76512f33d5d7e4a063c4\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"selected_set\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{}}},\"cdda2c84ce0019685e5b\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"031332f658600d821a61\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"max_price\"}},\"Property\":\"max_price\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"max_price\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"max_price\"}},\"Right\":{\"Literal\":{\"Value\":\"850D\"}}}}}]}}}}],\"data\":[{\"properties\":{\"numericStart\":{\"expr\":{\"Literal\":{\"Value\":\"850D\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"max_price\"}},\"Property\":\"max_price\"}}]}}},\"c0fd22a643d2c50d00cb\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}}],\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"relationships\":[{\"source\":\"56ac2ebb4332c7596e63\",\"target\":\"2b868544c8e80b8c4bec\",\"type\":3},{\"source\":\"56ac2ebb4332c7596e63\",\"target\":\"f6c2c704c03100296069\",\"type\":3},{\"source\":\"56ac2ebb4332c7596e63\",\"target\":\"af29a2f31e61ad005c3d\",\"type\":3}]}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "e0e97d1c85d309eb5070",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"031332f658600d821a61\",\"layouts\":[{\"id\":0,\"position\":{\"x\":64.3298969072165,\"y\":81.15463917525773,\"z\":12003,\"width\":299.8762886597938,\"height\":96.98969072164948,\"tabOrder\":12003}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"max_price.max_price\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"max_price\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"max_price\"},\"Name\":\"max_price.max_price\",\"NativeReferenceName\":\"max_price\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericStart\":{\"expr\":{\"Literal\":{\"Value\":\"850D\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"max_price\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"max_price\"}},\"Right\":{\"Literal\":{\"Value\":\"850D\"}}}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 96.99,
+          "width": 299.88,
+          "x": 64.33,
+          "y": 81.15,
+          "z": 12003.00
+        },
+        {
+          "config": "{\"name\":\"2b868544c8e80b8c4bec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":419.62886597938143,\"y\":47.50515463917525,\"z\":7000,\"width\":213.77319587628864,\"height\":117.77319587628865,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Compute.total_sets\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"total_sets\"},\"Name\":\"Compute.total_sets\",\"NativeReferenceName\":\"Total Sets\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"total_sets\"}}}]},\"columnProperties\":{\"Compute.total_sets\":{\"displayName\":\"Total Sets\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 117.77,
+          "width": 213.77,
+          "x": 419.63,
+          "y": 47.51,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"56ac2ebb4332c7596e63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":29.690721649484534,\"y\":280.0824742268041,\"z\":12000,\"width\":803.6288659793814,\"height\":390.92783505154637,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"lego_sets.name\"},{\"queryRef\":\"lego_sets.set_id\"},{\"queryRef\":\"lego_sets.theme\"},{\"queryRef\":\"lego_sets.age_range\"},{\"queryRef\":\"Compute.avg_pieces\"},{\"queryRef\":\"Compute.avg_price\"},{\"queryRef\":\"lego_sets.price_range\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lego_sets\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"name\"},\"Name\":\"lego_sets.name\",\"NativeReferenceName\":\"name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"set_id\"},\"Name\":\"lego_sets.set_id\",\"NativeReferenceName\":\"set_id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"theme\"},\"Name\":\"lego_sets.theme\",\"NativeReferenceName\":\"theme\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"age_range\"},\"Name\":\"lego_sets.age_range\",\"NativeReferenceName\":\"age_range\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_pieces\"},\"Name\":\"Compute.avg_pieces\",\"NativeReferenceName\":\"avg_pieces\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_price\"},\"Name\":\"Compute.avg_price\",\"NativeReferenceName\":\"avg_price\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"price_range\"},\"Name\":\"lego_sets.price_range\",\"NativeReferenceName\":\"price_range\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_price\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"291.113396654331D\"}}}},\"selector\":{\"metadata\":\"lego_sets.name\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"67D\"}}}},\"selector\":{\"metadata\":\"lego_sets.set_id\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"158D\"}}}},\"selector\":{\"metadata\":\"lego_sets.theme\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"72D\"}}}},\"selector\":{\"metadata\":\"lego_sets.age_range\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"74D\"}}}},\"selector\":{\"metadata\":\"Compute.avg_pieces\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"66D\"}}}},\"selector\":{\"metadata\":\"Compute.avg_price\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"79D\"}}}},\"selector\":{\"metadata\":\"lego_sets.price_range\"}}],\"total\":[{\"properties\":{\"totals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnHeaders\":[{\"properties\":{\"autoSizeColumnWidth\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnFormatting\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"lego_sets.age_range\"}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'AlternatingRowsNew'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"9cca7d0683921200d0a2\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"compute\"}},\"Property\":\"max_price_filter\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"max_price_filter\"}},\"Right\":{\"Literal\":{\"Value\":\"1L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+          "height": 390.93,
+          "width": 803.63,
+          "x": 29.69,
+          "y": 280.08,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"619a65bc1be43dd5d0bb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":442.39175257731955,\"y\":196.9484536082474,\"z\":11000,\"width\":270.1855670103093,\"height\":65.31958762886597,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"lego_sets.age_range\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lego_sets\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"age_range\"},\"Name\":\"lego_sets.age_range\",\"NativeReferenceName\":\"Age Range\"}]},\"columnProperties\":{\"lego_sets.theme_group\":{\"displayName\":\"Theme Group\"},\"lego_sets.age_range\":{\"displayName\":\"Age Range\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 65.32,
+          "width": 270.19,
+          "x": 442.39,
+          "y": 196.95,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"6982cd6510758732c378\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.876288659793813,\"y\":262.2680412371134,\"z\":3000,\"width\":845.1958762886597,\"height\":427.5463917525773,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 427.55,
+          "width": 845.20,
+          "x": 11.88,
+          "y": 262.27,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"76512f33d5d7e4a063c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":896.6597938144329,\"y\":207.83505154639172,\"z\":12001,\"width\":299.8762886597938,\"height\":54.43298969072165,\"tabOrder\":12001}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Compute.selected_set\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"selected_set\"},\"Name\":\"Compute.selected_set\",\"NativeReferenceName\":\"selected_set\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.43,
+          "width": 299.88,
+          "x": 896.66,
+          "y": 207.84,
+          "z": 12001.00
+        },
+        {
+          "config": "{\"name\":\"774f3187a5285e51c98b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":1279.6701030927834,\"height\":61.360824742268036,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 61.36,
+          "width": 1279.67,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9d714fa55cc04cc37908\",\"layouts\":[{\"id\":0,\"position\":{\"x\":869.9381443298969,\"y\":186.06185567010309,\"z\":2000,\"width\":377.0721649484536,\"height\":503.7525773195876,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 503.75,
+          "width": 377.07,
+          "x": 869.94,
+          "y": 186.06,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"af29a2f31e61ad005c3d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1000.5773195876288,\"y\":47.50515463917525,\"z\":9000,\"width\":213.77319587628864,\"height\":117.77319587628865,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Compute.avg_price\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_price\"},\"Name\":\"Compute.avg_price\",\"NativeReferenceName\":\"avg_price\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_price\"}}}]},\"columnProperties\":{\"Compute.total_sets\":{\"displayName\":\"Total Sets\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 117.77,
+          "width": 213.77,
+          "x": 1000.58,
+          "y": 47.51,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"be1d9489cd8635040309\",\"layouts\":[{\"id\":0,\"position\":{\"x\":678.9278350515464,\"y\":26.72164948453608,\"z\":5000,\"width\":280.0824742268041,\"height\":159.340206185567,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 159.34,
+          "width": 280.08,
+          "x": 678.93,
+          "y": 26.72,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"c0fd22a643d2c50d00cb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":733.3608247422679,\"y\":229.6082474226804,\"z\":12004,\"width\":99.95876288659792,\"height\":25.731958762886595}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Reset FIlter'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Button'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"bookmark\":{\"expr\":{\"Literal\":{\"Value\":\"'e9c96b1535b26cd90a06'\"}}},\"showDefaultTooltip\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 25.73,
+          "width": 99.96,
+          "x": 733.36,
+          "y": 229.61,
+          "z": 12004.00
+        },
+        {
+          "config": "{\"name\":\"c2059be11563a3227e25\",\"layouts\":[{\"id\":0,\"position\":{\"x\":385.97938144329896,\"y\":30.680412371134018,\"z\":4000,\"width\":280.0824742268041,\"height\":155.38144329896906,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 155.38,
+          "width": 280.08,
+          "x": 385.98,
+          "y": 30.68,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"cdda2c84ce0019685e5b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":963.9587628865979,\"y\":280.0824742268041,\"z\":12002,\"width\":189.03092783505153,\"height\":73.23711340206185,\"tabOrder\":12002}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"image =>\"}]},{\"textRuns\":[{\"value\":\"app source > simple image\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 73.24,
+          "width": 189.03,
+          "x": 963.96,
+          "y": 280.08,
+          "z": 12002.00
+        },
+        {
+          "config": "{\"name\":\"e3e9a3c5c353e386d322\",\"layouts\":[{\"id\":0,\"position\":{\"x\":966.9278350515464,\"y\":26.72164948453608,\"z\":6000,\"width\":280.0824742268041,\"height\":159.340206185567,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"shadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 159.34,
+          "width": 280.08,
+          "x": 966.93,
+          "y": 26.72,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"f2d8f6b41eb21bae21cd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":64.3298969072165,\"y\":196.9484536082474,\"z\":10000,\"width\":313.73195876288656,\"height\":65.31958762886597,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"lego_sets.theme_group\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"lego_sets\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"theme_group\"},\"Name\":\"lego_sets.theme_group\",\"NativeReferenceName\":\"Theme Group\"}]},\"columnProperties\":{\"lego_sets.theme_group\":{\"displayName\":\"Theme Group\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 65.32,
+          "width": 313.73,
+          "x": 64.33,
+          "y": 196.95,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"f6c2c704c03100296069\",\"layouts\":[{\"id\":0,\"position\":{\"x\":712.5773195876288,\"y\":47.50515463917525,\"z\":8000,\"width\":213.77319587628864,\"height\":117.77319587628865,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Compute.avg_pieces\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"compute\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_pieces\"},\"Name\":\"Compute.avg_pieces\",\"NativeReferenceName\":\"avg_pieces\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"avg_pieces\"}}}]},\"autoSelectVisualType\":false,\"columnProperties\":{\"Compute.total_sets\":{\"displayName\":\"Total Sets\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 117.77,
+          "width": 213.77,
+          "x": 712.58,
+          "y": 47.51,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"fb830c660b6c275ce8a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":659.1340206185566,\"z\":0,\"width\":1279.6701030927834,\"height\":61.360824742268036,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 61.36,
+          "width": 1279.67,
+          "x": 0.00,
+          "y": 659.13,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

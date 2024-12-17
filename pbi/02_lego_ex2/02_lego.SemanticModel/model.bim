@@ -1,0 +1,421 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"lego_sets\",\"compute\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "lego_sets",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "set_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "492a13e6-4a66-478f-a0ca-199146de51cf",
+            "sourceColumn": "set_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "afcc3d48-1b85-4820-9c40-9d196b95e0d6",
+            "sourceColumn": "name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ec3e5f61-9f60-4216-8c27-694f27ea47d0",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "theme",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3834521e-5d2f-482f-af50-e2ca1c7e49fb",
+            "sourceColumn": "theme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subtheme",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "43d14af5-a48d-4268-81a8-13c029ff905a",
+            "sourceColumn": "subtheme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "theme_group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "90857b1f-27fb-4eb5-9435-fddb72513619",
+            "sourceColumn": "theme_group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "38846f9f-a71e-4aeb-9a61-efb494e1928e",
+            "sourceColumn": "category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pieces",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "73e207e9-9f01-4291-b78f-56b391ba188c",
+            "sourceColumn": "pieces",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mini_figs",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2afa54ec-342a-4a92-8167-ac674a79deda",
+            "sourceColumn": "mini_figs",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ebab7b99-67af-4196-a8e8-99d0b485ff5a",
+            "sourceColumn": "age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-US\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "a5055eb6-b03f-4acb-8ebe-2f5be3c68127",
+            "sourceColumn": "price",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "image_url",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2eb981e3-58ae-42d3-a7cb-b4b483bb8b38",
+            "sourceColumn": "image_url",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "age_range",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7122e576-a7ca-449e-8870-93ec9f18d0bd",
+            "sourceColumn": "age_range",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "price_range",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ec73afe9-9cd0-49dd-89bb-680294faf019",
+            "sourceColumn": "price_range",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7fecdff0-bb96-4c04-8a77-b3ad18dd02a1",
+        "partitions": [
+          {
+            "name": "lego_sets",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\.x\\.learn\\power_bi\\.reference\\maven\\lego_sets.csv\"),[Delimiter=\",\", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"set_id\", type text}, {\"name\", type text}, {\"year\", Int64.Type}, {\"theme\", type text}, {\"subtheme\", type text}, {\"themeGroup\", type text}, {\"category\", type text}, {\"pieces\", Int64.Type}, {\"minifigs\", type text}, {\"agerange_min\", type text}, {\"US_retailPrice\", type text}, {\"bricksetURL\", type text}, {\"thumbnailURL\", type text}, {\"imageURL\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"bricksetURL\", \"thumbnailURL\"}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Removed Columns\", each [US_retailPrice] <> null and [US_retailPrice] <> \"\"),",
+                "    #\"Filtered Rows1\" = Table.SelectRows(#\"Filtered Rows\", each [agerange_min] <> null and [agerange_min] <> \"\"),",
+                "    #\"Filtered Rows2\" = Table.SelectRows(#\"Filtered Rows1\", each [minifigs] <> null and [minifigs] <> \"\"),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Filtered Rows2\",{{\"US_retailPrice\", Currency.Type}, {\"agerange_min\", Int64.Type}, {\"minifigs\", Int64.Type}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type1\",{{\"minifigs\", \"mini_figs\"}, {\"US_retailPrice\", \"price\"}, {\"imageURL\", \"image_url\"}, {\"themeGroup\", \"theme_group\"}}),",
+                "    #\"Filtered Rows3\" = Table.SelectRows(#\"Renamed Columns\", each [pieces] <> null and [pieces] <> \"\"),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Filtered Rows3\",{{\"agerange_min\", \"age\"}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Renamed Columns1\", \"age_range\", each if [age] >= 18 then \"over 18\" else if [age] >= 10 then \"10 to 17\" else if [age] >= 5 then \"5 to 9\" else \"1 to 4\"),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Added Conditional Column\", \"price_range\", each if [price] >= 500 then \"$$$$$\" else if [price] > 100 then \"$$$$\" else if [price] > 50 then \"$$$\" else if [price] > 25 then \"$$\" else \"$\")",
+                "in",
+                "    #\"Added Conditional Column1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "compute",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "lineageTag": "346320f6-5541-4947-8847-a72dbf8a1ad9",
+        "measures": [
+          {
+            "name": "total_sets",
+            "expression": "DISTINCTCOUNT(lego_sets[set_id])",
+            "formatString": "#,0",
+            "lineageTag": "8d88d332-44c6-4f0d-ac70-47957a8a9a67"
+          },
+          {
+            "name": "total_groups",
+            "expression": "DISTINCTCOUNT(lego_sets[theme_group] )",
+            "formatString": "0",
+            "lineageTag": "79f1b736-ad0c-45d0-a3b4-61162678c0f3"
+          },
+          {
+            "name": "avg_price",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-US\"}"
+              }
+            ],
+            "expression": "AVERAGE(lego_sets[price] )",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "7a4a09d4-016e-4d42-b2df-cd0217209ebe"
+          },
+          {
+            "name": "avg_pieces",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": "ROUND(AVERAGE(lego_sets[pieces]),0)",
+            "formatString": "0",
+            "lineageTag": "7db0e0d4-c5c2-4a17-addc-153287dbd3e4"
+          },
+          {
+            "name": "avg_age",
+            "expression": "AVERAGE(lego_sets[age])",
+            "formatString": "0.0",
+            "lineageTag": "1d85bbb2-d326-4bef-91c1-74c15105dd02"
+          },
+          {
+            "name": "selected_set",
+            "expression": "IF(HASONEVALUE(lego_sets[name]),MAX(lego_sets[name]), BLANK()) ",
+            "lineageTag": "6b4044ec-4aa1-433f-8137-474f54ed4c45"
+          },
+          {
+            "name": "max_price_filter",
+            "expression": "IF([avg_price]<=max_price[max_price Value],1,0) ",
+            "formatString": "0",
+            "lineageTag": "2add30f9-5fea-4327-bce3-6d484741cb38"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "compute",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "max_price",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "2ff98e1125b447638b797b493142d92d"
+          }
+        ],
+        "columns": [
+          {
+            "name": "max_price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "dda52709-0780-4de8-acd8-266fc3db349d",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "a319136a-cc13-4b64-aa4b-b2bf7400fba1",
+        "measures": [
+          {
+            "name": "max_price Value",
+            "expression": "SELECTEDVALUE('max_price'[max_price], 850)",
+            "formatString": "0",
+            "lineageTag": "a5c26a43-8453-47dd-af84-46b38a7592e6"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "max_price",
+            "mode": "import",
+            "source": {
+              "expression": "GENERATESERIES(0, 850, 5)",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

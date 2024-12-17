@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "02_lego"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2df6c9c1-1b06-4f62-a840-f8f5deeba5be"
+  }
+}
