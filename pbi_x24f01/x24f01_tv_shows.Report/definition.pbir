@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../x24f01_tv_shows.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

@@ -1,0 +1,1723 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"d_end_year\",\"d_start_year\",\"f_tv_shows\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "d_end_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_end_year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d end year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "d_end_year": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "end year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "d end yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "end yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "d completion year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "d conclusion year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "d expiration year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "completion year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "conclusion year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "expiration year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "d close year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "d finish year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "d_end_year.year_end": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_end_year",
+                    "ConceptualProperty": "year_end"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year end": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year_end": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "end": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "year completion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "year conclusion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "year expiration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "completion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "conclusion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "expiration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "year close": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "year finish": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "year last": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "year stop": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "d_start_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_start_year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d start year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "d_start_year": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "start year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "d start yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "start yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "d_start_year.year_start": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "d_start_year",
+                    "ConceptualProperty": "year_start"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year start": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year_start": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "start": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "yr start": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "year twitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year jump": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year jerk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year flinch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year jolt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "twitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "jump": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "jerk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "flinch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "f_tv_show": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "f tv show": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "f_tv_shows": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "tv show": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "f tv demonstration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "f tv expression": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "f tv illustration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "f tv confirmation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "f tv appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "f tv indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "f tv spectacle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "tv demonstration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "tv expression": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "tv illustration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "f_tv_show.episode": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows",
+                    "ConceptualProperty": "episodes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "episode": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "affair": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "occurrence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "incident": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "chapter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "event": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "experience": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "incidence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "outbreak": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "bout": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "f_tv_show.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows",
+                    "ConceptualProperty": "name"
+                  }
+                },
+                "NameType": "Name",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "f_tv_show.rank": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows",
+                    "ConceptualProperty": "rank"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rank": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "flourishing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sheer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "absolute": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "f_tv_show.rating": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows",
+                    "ConceptualProperty": "rating"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rating": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "evaluation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "score": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "ranking": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sailor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "seaman": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "hand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "f_tv_show.year_end": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows",
+                    "ConceptualProperty": "year_end"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year end": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year_end": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "end": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "year completion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "year conclusion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "year expiration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "completion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "conclusion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "expiration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "year close": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "year finish": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "year last": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "year stop": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_tv_show.year_start": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_tv_shows",
+                    "ConceptualProperty": "year_start"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year start": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year_start": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "start": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "yr start": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "year twitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year jump": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year jerk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year flinch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year jolt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "twitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "jump": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "jerk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "flinch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Start Year - Tv Show": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "d_end_year_has_year_end": {
+                "Binding": {
+                  "ConceptualEntity": "d_end_year"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_end_year.year_end"
+                      },
+                      "Subject": {
+                        "Role": "d_end_year"
+                      }
+                    },
+                    "ID": "d_end_years_have_year_ends",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_end_year": {
+                    "Target": {
+                      "Entity": "d_end_year"
+                    }
+                  },
+                  "d_end_year.year_end": {
+                    "Target": {
+                      "Entity": "d_end_year.year_end"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_start_year_has_year_start": {
+                "Binding": {
+                  "ConceptualEntity": "d_start_year"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_start_year.year_start"
+                      },
+                      "Subject": {
+                        "Role": "d_start_year"
+                      }
+                    },
+                    "ID": "d_start_years_have_year_starts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_start_year": {
+                    "Target": {
+                      "Entity": "d_start_year"
+                    }
+                  },
+                  "d_start_year.year_start": {
+                    "Target": {
+                      "Entity": "d_start_year.year_start"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_tv_show_has_d_end_year": {
+                "Binding": {
+                  "ConceptualEntity": "f_tv_shows"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_end_year"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "ID": "f_tv_shows_have_d_end_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_tv_show"
+                      },
+                      "Subject": {
+                        "Role": "d_end_year"
+                      }
+                    },
+                    "ID": "d_end_years_have_f_tv_shows",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_end_year": {
+                    "Target": {
+                      "Entity": "d_end_year"
+                    }
+                  },
+                  "f_tv_show": {
+                    "Target": {
+                      "Entity": "f_tv_show"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_tv_show_has_d_start_year": {
+                "Binding": {
+                  "ConceptualEntity": "f_tv_shows"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_start_year"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "ID": "f_tv_shows_have_d_start_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_tv_show"
+                      },
+                      "Subject": {
+                        "Role": "d_start_year"
+                      }
+                    },
+                    "ID": "d_start_years_have_f_tv_shows",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_start_year": {
+                    "Target": {
+                      "Entity": "d_start_year"
+                    }
+                  },
+                  "f_tv_show": {
+                    "Target": {
+                      "Entity": "f_tv_show"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_tv_show_has_episode": {
+                "Binding": {
+                  "ConceptualEntity": "f_tv_shows"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_tv_show.episode"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "ID": "f_tv_shows_have_episodes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_tv_show": {
+                    "Target": {
+                      "Entity": "f_tv_show"
+                    }
+                  },
+                  "f_tv_show.episode": {
+                    "Target": {
+                      "Entity": "f_tv_show.episode"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_tv_show_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "f_tv_shows"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_tv_show.name"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "ID": "f_tv_shows_have_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "names_are_names_IDs_of_f_tv_shows",
+                    "Name": {
+                      "Name": {
+                        "Role": "f_tv_show.name"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_tv_show": {
+                    "Target": {
+                      "Entity": "f_tv_show"
+                    }
+                  },
+                  "f_tv_show.name": {
+                    "Target": {
+                      "Entity": "f_tv_show.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_tv_show_has_rank": {
+                "Binding": {
+                  "ConceptualEntity": "f_tv_shows"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_tv_show.rank"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "ID": "f_tv_shows_have_ranks",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_tv_show": {
+                    "Target": {
+                      "Entity": "f_tv_show"
+                    }
+                  },
+                  "f_tv_show.rank": {
+                    "Target": {
+                      "Entity": "f_tv_show.rank"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_tv_show_has_rating": {
+                "Binding": {
+                  "ConceptualEntity": "f_tv_shows"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_tv_show.rating"
+                      },
+                      "Subject": {
+                        "Role": "f_tv_show"
+                      }
+                    },
+                    "ID": "f_tv_shows_have_rating",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_tv_show": {
+                    "Target": {
+                      "Entity": "f_tv_show"
+                    }
+                  },
+                  "f_tv_show.rating": {
+                    "Target": {
+                      "Entity": "f_tv_show.rating"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_17c39dbb-5e14-4ba7-80f7-13044b0035b0",
+        "fromColumn": "year_end",
+        "fromTable": "f_tv_shows",
+        "toColumn": "year_end",
+        "toTable": "d_end_year"
+      },
+      {
+        "name": "AutoDetected_9c96368c-662c-4ed8-ae7e-5f54033cafb2",
+        "fromColumn": "year_start",
+        "fromTable": "f_tv_shows",
+        "toColumn": "year_start",
+        "toTable": "d_start_year"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "d_end_year",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "year_end",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ab185059-1f16-4655-a0a7-5a0497075dbc",
+            "sourceColumn": "year_end",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e16c2220-de82-49bc-acfc-b65bcd4368a6",
+        "partitions": [
+          {
+            "name": "d_end_year",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = DuckDB.Contents(\"C:\\.x\\data-reference-25\\pbi_x24f01\\.data\\dev.duckdb\", null, true, null, []),",
+                "    d_end_year_main_dev = Source{[Item=\"d_end_year\",Schema=\"main\",Catalog=\"dev\"]}[Data]",
+                "in",
+                "    d_end_year_main_dev"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "d_start_year",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "year_start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b040a4e5-c463-44a9-958c-5267e04a0306",
+            "sourceColumn": "year_start",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "aa3c2391-3d44-4b76-a47d-741efe63ed10",
+        "partitions": [
+          {
+            "name": "d_start_year",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = DuckDB.Contents(\"C:\\.x\\data-reference-25\\pbi_x24f01\\.data\\dev.duckdb\", null, true, null, []),",
+                "    d_start_year_main_dev = Source{[Item=\"d_start_year\",Schema=\"main\",Catalog=\"dev\"]}[Data]",
+                "in",
+                "    d_start_year_main_dev"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "f_tv_shows",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fbea57dd-85d6-4ca8-a294-87fdd78bfa58",
+            "sourceColumn": "name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year_start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "79a98da8-ab06-4b9f-8468-f0c1c6cbfc22",
+            "sourceColumn": "year_start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year_end",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b34002b0-bbf7-4dd0-8d8b-c9aa7d9ee6bc",
+            "sourceColumn": "year_end",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "episodes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "41190738-84eb-4f62-8731-4cf68111c093",
+            "sourceColumn": "episodes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ad0a978c-afaf-4575-8344-ab69e6c18b3c",
+            "sourceColumn": "rating",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "rank",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3b2b214b-a568-428a-8313-60a56c9e9283",
+            "sourceColumn": "rank",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "105bddcd-034a-4cd0-b50d-01723c2150b8",
+        "partitions": [
+          {
+            "name": "f_tv_shows",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = DuckDB.Contents(\"C:\\.x\\data-reference-25\\pbi_x24f01\\.data\\dev.duckdb\", null, true, null, []),",
+                "    f_tv_shows_main_dev = Source{[Item=\"f_tv_shows\",Schema=\"main\",Catalog=\"dev\"]}[Data]",
+                "in",
+                "    f_tv_shows_main_dev"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "9f1c1df7a047e3ba5ab0",
+      "config": "{}",
+      "name": "7ead6ad8d06b01151263"
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "9f1c1df7a047e3ba5ab0",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"679d40600a56b2a7bd0e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":547.2989690721649,\"y\":14.845360824742267,\"z\":1000,\"width\":299.8762886597938,\"height\":62.350515463917525,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"d_start_year.year_start\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_start_year\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_start\"},\"Name\":\"d_start_year.year_start\",\"NativeReferenceName\":\"year_start\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"d_start_year\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"year_start\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'2019'\"}}],[{\"Literal\":{\"Value\":\"'2020'\"}}],[{\"Literal\":{\"Value\":\"'2021'\"}}],[{\"Literal\":{\"Value\":\"'2022'\"}}],[{\"Literal\":{\"Value\":\"'2023'\"}}],[{\"Literal\":{\"Value\":\"'2024'\"}}],[{\"Literal\":{\"Value\":\"'2018'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Year the Series Start'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 62.35,
+          "width": 299.88,
+          "x": 547.30,
+          "y": 14.85,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"84c4c7c9e3da0e3e6c51\",\"layouts\":[{\"id\":0,\"position\":{\"x\":480.9896907216494,\"y\":90.06185567010309,\"z\":2000,\"width\":433.4845360824742,\"height\":606.680412371134,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"f_tv_shows.year_start\",\"active\":true},{\"queryRef\":\"f_tv_shows.name\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(f_tv_shows.rating)\"},{\"queryRef\":\"Min(f_tv_shows.episodes)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"f_tv_shows\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"name\"},\"Name\":\"f_tv_shows.name\",\"NativeReferenceName\":\"name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"rating\"}},\"Function\":4},\"Name\":\"Sum(f_tv_shows.rating)\",\"NativeReferenceName\":\"Ratings\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"episodes\"}},\"Function\":3},\"Name\":\"Min(f_tv_shows.episodes)\",\"NativeReferenceName\":\"# of Episodes\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"year_start\"},\"Name\":\"f_tv_shows.year_start\",\"NativeReferenceName\":\"Start Year - Tv Show\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"year_start\"}}},{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"name\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"f_tv_shows.year_start\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"f_tv_shows\"}},\"Property\":\"year_start\"}}],\"isPinned\":true},{\"queryRefs\":[\"f_tv_shows.name\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null,\"children\":[{\"identityValues\":[{\"Literal\":{\"Value\":\"'1975'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'2006'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'1980'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'2024'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'2023'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'2022'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'2021'\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"'2020'\"}}],\"isToggled\":true}]}}],\"columnProperties\":{\"Sum(f_tv_shows.rating)\":{\"displayName\":\"Ratings\"},\"Min(f_tv_shows.episodes)\":{\"displayName\":\"# of Episodes\"},\"f_tv_shows.year_start\":{\"displayName\":\"Start Year - Tv Show\"}},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":2,\"objects\":{\"grid\":[{\"properties\":{\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"subTotals\":[{\"properties\":{\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnFormatting\":[{\"properties\":{\"dataBars\":{\"positiveColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'maxColor'\"}}}}},\"negativeColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'minColor'\"}}}}},\"axisColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'foreground'\"}}}}},\"reverseDirection\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"hideText\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"totalMatchingOption\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}}},\"selector\":{\"metadata\":\"Sum(f_tv_shows.rating)\"}},{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"Min(f_tv_shows.episodes)\"}}],\"values\":[{\"properties\":{\"fontColorPrimary\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"f_tv_shows\"}},\"Property\":\"rating\"}},\"Function\":4}},\"Right\":{\"Literal\":{\"Value\":\"7D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"f_tv_shows\"}},\"Property\":\"rating\"}},\"Function\":4}},\"Right\":{\"Literal\":{\"Value\":\"8D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#000000'\"}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"f_tv_shows\"}},\"Property\":\"rating\"}},\"Function\":4}},\"Right\":{\"Literal\":{\"Value\":\"8D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"f_tv_shows\"}},\"Property\":\"rating\"}},\"Function\":4}},\"Right\":{\"Literal\":{\"Value\":\"10D\"}}}}}},\"Value\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}]}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"f_tv_shows\"}},\"Property\":\"rating\"}},\"Function\":4}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#cccccc'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"Sum(f_tv_shows.rating)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 606.68,
+          "width": 433.48,
+          "x": 480.99,
+          "y": 90.06,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

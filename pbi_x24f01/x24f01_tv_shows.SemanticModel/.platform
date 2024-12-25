@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "x24f01_tv_shows"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "406b0824-5a76-45a7-8dfd-57f58df0846f"
+  }
+}
